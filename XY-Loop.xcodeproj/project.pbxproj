@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B46E7511FD0B2C80092E501 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46E7501FD0B2C80092E501 /* SettingsViewController.swift */; };
+		6B6CF5701FCA19CA00A448B8 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6CF56E1FCA19C900A448B8 /* AudioKit.framework */; };
+		6B6CF5711FCA19CA00A448B8 /* AudioKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6CF56F1FCA19C900A448B8 /* AudioKitUI.framework */; };
+		6B6CF5771FCA1A9300A448B8 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6B6CF5761FCA1A9300A448B8 /* podfile */; };
+		6B7E617E1FCB3A8500CC2042 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B7E617D1FCB3A8500CC2042 /* AudioToolbox.framework */; };
+		6B8267251FCA1C8F00540E1E /* AudioMidiEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8267241FCA1C8F00540E1E /* AudioMidiEngine.swift */; };
+		6BABCA071FCA0D770069000B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BABCA061FCA0D770069000B /* AppDelegate.swift */; };
+		6BABCA091FCA0D770069000B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BABCA081FCA0D770069000B /* ViewController.swift */; };
+		6BABCA0C1FCA0D770069000B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BABCA0A1FCA0D770069000B /* Main.storyboard */; };
+		6BABCA0E1FCA0D770069000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BABCA0D1FCA0D770069000B /* Assets.xcassets */; };
+		6BABCA111FCA0D770069000B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BABCA0F1FCA0D770069000B /* LaunchScreen.storyboard */; };
+		6BABCA1B1FCA10060069000B /* ComponentXY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BABCA1A1FCA10060069000B /* ComponentXY.swift */; };
+		6BABCA1D1FCA106E0069000B /* ComponentXYView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BABCA1C1FCA106E0069000B /* ComponentXYView.swift */; };
+		6BD373611FDDC1D40040135D /* MidiFilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD373601FDDC1D40040135D /* MidiFilesController.swift */; };
+		6BFE188F1FCB2F94007CD952 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 6BFE188E1FCB2F94007CD952 /* Sounds */; };
+		E81A820B99B35B718C8BDD0A /* Pods_XY_Loop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FF9B969FAF3FA77B1FFB52 /* Pods_XY_Loop.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BB5DB1F70346BFEA1E9BAAF /* Pods-XY-Loop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XY-Loop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XY-Loop/Pods-XY-Loop.debug.xcconfig"; sourceTree = "<group>"; };
+		61FF9B969FAF3FA77B1FFB52 /* Pods_XY_Loop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XY_Loop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B46E7501FD0B2C80092E501 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6B6CF56E1FCA19C900A448B8 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = "../../AudioKit Full/AudioKit/Frameworks/AudioKit-iOS/AudioKit.framework"; sourceTree = "<group>"; };
+		6B6CF56F1FCA19C900A448B8 /* AudioKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKitUI.framework; path = "../../AudioKit Full/AudioKit/Frameworks/AudioKit-iOS/AudioKitUI.framework"; sourceTree = "<group>"; };
+		6B6CF5761FCA1A9300A448B8 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B7E617A1FCB3A8300CC2042 /* XY-Loop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "XY-Loop.entitlements"; sourceTree = "<group>"; };
+		6B7E617D1FCB3A8500CC2042 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6B8267241FCA1C8F00540E1E /* AudioMidiEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMidiEngine.swift; sourceTree = "<group>"; };
+		6BABCA031FCA0D770069000B /* XY-Loop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XY-Loop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BABCA061FCA0D770069000B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BABCA081FCA0D770069000B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BABCA0B1FCA0D770069000B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BABCA0D1FCA0D770069000B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BABCA101FCA0D770069000B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BABCA121FCA0D770069000B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BABCA1A1FCA10060069000B /* ComponentXY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentXY.swift; sourceTree = "<group>"; };
+		6BABCA1C1FCA106E0069000B /* ComponentXYView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentXYView.swift; sourceTree = "<group>"; };
+		6BD373601FDDC1D40040135D /* MidiFilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiFilesController.swift; sourceTree = "<group>"; };
+		6BFE188E1FCB2F94007CD952 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = SOURCE_ROOT; };
+		F16A6C505667F04883BB9FE3 /* Pods-XY-Loop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XY-Loop.release.xcconfig"; path = "Pods/Target Support Files/Pods-XY-Loop/Pods-XY-Loop.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BABCA001FCA0D770069000B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B6CF5701FCA19CA00A448B8 /* AudioKit.framework in Frameworks */,
+				6B6CF5711FCA19CA00A448B8 /* AudioKitUI.framework in Frameworks */,
+				6B7E617E1FCB3A8500CC2042 /* AudioToolbox.framework in Frameworks */,
+				E81A820B99B35B718C8BDD0A /* Pods_XY_Loop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BBD131E1C2E73AD77FDC79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BB5DB1F70346BFEA1E9BAAF /* Pods-XY-Loop.debug.xcconfig */,
+				F16A6C505667F04883BB9FE3 /* Pods-XY-Loop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B6CF56D1FCA19C900A448B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B7E617D1FCB3A8500CC2042 /* AudioToolbox.framework */,
+				6B6CF56E1FCA19C900A448B8 /* AudioKit.framework */,
+				6B6CF56F1FCA19C900A448B8 /* AudioKitUI.framework */,
+				61FF9B969FAF3FA77B1FFB52 /* Pods_XY_Loop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B8267261FCA20F600540E1E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6BABCA1A1FCA10060069000B /* ComponentXY.swift */,
+				6BABCA1C1FCA106E0069000B /* ComponentXYView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6BABC9FA1FCA0D770069000B = {
+			isa = PBXGroup;
+			children = (
+				6B7E617A1FCB3A8300CC2042 /* XY-Loop.entitlements */,
+				6B6CF5761FCA1A9300A448B8 /* podfile */,
+				6BABCA051FCA0D770069000B /* XY-Loop */,
+				6BABCA041FCA0D770069000B /* Products */,
+				6B6CF56D1FCA19C900A448B8 /* Frameworks */,
+				09BBD131E1C2E73AD77FDC79 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6BABCA041FCA0D770069000B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BABCA031FCA0D770069000B /* XY-Loop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BABCA051FCA0D770069000B /* XY-Loop */ = {
+			isa = PBXGroup;
+			children = (
+				6BFE188E1FCB2F94007CD952 /* Sounds */,
+				6B8267261FCA20F600540E1E /* UI */,
+				6BABCA061FCA0D770069000B /* AppDelegate.swift */,
+				6BABCA081FCA0D770069000B /* ViewController.swift */,
+				6B8267241FCA1C8F00540E1E /* AudioMidiEngine.swift */,
+				6BD373601FDDC1D40040135D /* MidiFilesController.swift */,
+				6B46E7501FD0B2C80092E501 /* SettingsViewController.swift */,
+				6BABCA0A1FCA0D770069000B /* Main.storyboard */,
+				6BABCA0D1FCA0D770069000B /* Assets.xcassets */,
+				6BABCA0F1FCA0D770069000B /* LaunchScreen.storyboard */,
+				6BABCA121FCA0D770069000B /* Info.plist */,
+			);
+			path = "XY-Loop";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BABCA021FCA0D770069000B /* XY-Loop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BABCA151FCA0D770069000B /* Build configuration list for PBXNativeTarget "XY-Loop" */;
+			buildPhases = (
+				C5387BD4BCC92F162DCA1977 /* [CP] Check Pods Manifest.lock */,
+				6BABC9FF1FCA0D770069000B /* Sources */,
+				6BABCA001FCA0D770069000B /* Frameworks */,
+				6BABCA011FCA0D770069000B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XY-Loop";
+			productName = "XY-Music";
+			productReference = 6BABCA031FCA0D770069000B /* XY-Loop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BABC9FB1FCA0D770069000B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kl;
+				TargetAttributes = {
+					6BABCA021FCA0D770069000B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6BABC9FE1FCA0D770069000B /* Build configuration list for PBXProject "XY-Loop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BABC9FA1FCA0D770069000B;
+			productRefGroup = 6BABCA041FCA0D770069000B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BABCA021FCA0D770069000B /* XY-Loop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BABCA011FCA0D770069000B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFE188F1FCB2F94007CD952 /* Sounds in Resources */,
+				6BABCA111FCA0D770069000B /* LaunchScreen.storyboard in Resources */,
+				6BABCA0E1FCA0D770069000B /* Assets.xcassets in Resources */,
+				6B6CF5771FCA1A9300A448B8 /* podfile in Resources */,
+				6BABCA0C1FCA0D770069000B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5387BD4BCC92F162DCA1977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XY-Loop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BABC9FF1FCA0D770069000B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8267251FCA1C8F00540E1E /* AudioMidiEngine.swift in Sources */,
+				6BD373611FDDC1D40040135D /* MidiFilesController.swift in Sources */,
+				6BABCA1B1FCA10060069000B /* ComponentXY.swift in Sources */,
+				6BABCA1D1FCA106E0069000B /* ComponentXYView.swift in Sources */,
+				6BABCA091FCA0D770069000B /* ViewController.swift in Sources */,
+				6BABCA071FCA0D770069000B /* AppDelegate.swift in Sources */,
+				6B46E7511FD0B2C80092E501 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BABCA0A1FCA0D770069000B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BABCA0B1FCA0D770069000B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BABCA0F1FCA0D770069000B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BABCA101FCA0D770069000B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BABCA131FCA0D770069000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BABCA141FCA0D770069000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BABCA161FCA0D770069000B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB5DB1F70346BFEA1E9BAAF /* Pods-XY-Loop.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "XY-Loop.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52XA6EZH8P;
+				INFOPLIST_FILE = "$(SRCROOT)/XY-Loop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kl.XYLoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BABCA171FCA0D770069000B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16A6C505667F04883BB9FE3 /* Pods-XY-Loop.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "XY-Loop.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52XA6EZH8P;
+				INFOPLIST_FILE = "$(SRCROOT)/XY-Loop/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kl.XYLoop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BABC9FE1FCA0D770069000B /* Build configuration list for PBXProject "XY-Loop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BABCA131FCA0D770069000B /* Debug */,
+				6BABCA141FCA0D770069000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BABCA151FCA0D770069000B /* Build configuration list for PBXNativeTarget "XY-Loop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BABCA161FCA0D770069000B /* Debug */,
+				6BABCA171FCA0D770069000B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BABC9FB1FCA0D770069000B /* Project object */;
+}
