@@ -8,5 +8,5 @@ Instant audio and midi Loop, change easily pattern using X-Y controller.
 
 Run `Pod Install` from command line to add AudioKit to project
 
-Then open `Soundfocus.xcworkspace`
+Then open `XY-Loop.xcworkspace`
 
