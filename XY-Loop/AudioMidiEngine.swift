@@ -91,12 +91,11 @@ class AudioMidiEngine {
     
     func loadMidiFile(midiFileInstrument: String, midiFileStyle:String, midiFileSelectedNumber: String) {
         
-        
         let path = "Sounds/midi/\(midiFileInstrument)/\(midiFileStyle)/\(midiFileSelectedNumber)"
         sequencer = AKSequencer(filename: path)
         sequencer.setTempo(currentTempo)
         sequencer.enableLooping(sequenceLength)
-
+        
         sequencer.setGlobalMIDIOutput(self.callbackInstrument.midiIn)
     }
     
@@ -130,6 +129,7 @@ class AudioMidiEngine {
                     print("did nothing")
                 }
             }
+            try! self.drumKit.play(noteNumber: note, velocity: velocity, channel: self.midiChannel)
         }
     }
 
